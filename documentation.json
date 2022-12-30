@@ -1,29 +1,7 @@
 {
     "pipes": [],
     "interfaces": [],
-    "injectables": [
-        {
-            "name": "CustomButtonService",
-            "id": "injectable-CustomButtonService-8baeed3025c1f275dbce6296bfc8ccb98ba344c25a12abb8f773d450eb49bb9a97e5693073292f951acfa1d2b5efb5db21026c5801c9536fe9c39776f07a195f",
-            "file": "projects/custom-button/src/lib/custom-button.service.ts",
-            "properties": [],
-            "methods": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "description": "",
-            "rawdescription": "\n",
-            "sourceCode": "import { Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class CustomButtonService {\n  constructor() {}\n}\n",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 6
-            },
-            "type": "injectable"
-        }
-    ],
+    "injectables": [],
     "guards": [],
     "interceptors": [],
     "classes": [],
@@ -356,7 +334,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 9,
+        "count": 10,
         "status": "low",
         "files": [
             {
@@ -417,15 +395,6 @@
                 "coveragePercent": 83,
                 "coverageCount": "5/6",
                 "status": "very-good"
-            },
-            {
-                "filePath": "projects/custom-button/src/lib/custom-button.service.ts",
-                "type": "injectable",
-                "linktype": "injectable",
-                "name": "CustomButtonService",
-                "coveragePercent": 0,
-                "coverageCount": "0/2",
-                "status": "low"
             },
             {
                 "filePath": "projects/custom-button/src/test.ts",
