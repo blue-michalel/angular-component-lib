@@ -4,12 +4,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "custom-button": [
-        "dist/custom-button"
-      ],
-      "custom-input": [
-        "dist/custom-input"
-      ]
+      "custom-button": ["dist/custom-button"],
+      "custom-input": ["dist/custom-input"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -26,15 +22,14 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ]
+    "lib": ["es2020", "dom"],
+    "typeRoots": ["node_modules/@types"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "exclude": ["**/*.spec.ts"]
 }
