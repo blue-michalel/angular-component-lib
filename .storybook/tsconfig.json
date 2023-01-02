@@ -1,5 +1,5 @@
 {
-  "extends": "../projects/custom-button/tsconfig.lib.json",
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "types": ["node"],
     "allowSyntheticDefaultImports": true

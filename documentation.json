@@ -10,7 +10,7 @@
         {
             "name": "CustomButtonComponent",
             "id": "component-CustomButtonComponent-5b6d974ced2729a8ad8892493421db487eed953d8351e6480b83b333f472a97e042145d5974a5eda942123b6f39c380c189f99b2d5d95a0ecd521bc37dfbab15",
-            "file": "projects/custom-button/src/lib/custom-button.component.ts",
+            "file": "projects/components/custom-button/src/lib/custom-button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -133,62 +133,7 @@
         },
         {
             "name": "CustomInputComponent",
-            "id": "component-CustomInputComponent-b3deeb2ffc90d0f5fc0eee74850df10918ef8ffc443eb9dc3cd11954c05d668f61d7c0c728219efa36220376e24a59f922a5842988ecba672d027817bac824e6",
-            "file": "projects/custom-input/src/lib/custom-input.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "lib-custom-input",
-            "styleUrls": [],
-            "styles": [
-                "./custom-input.component.scss"
-            ],
-            "template": "<input />",
-            "templateUrl": [],
-            "viewProviders": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 11,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n  styles: ['./custom-input.component.scss'],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": "./custom-input.component.scss\n",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 8
-            },
-            "implements": [
-                "OnInit"
-            ]
-        },
-        {
-            "name": "CustomInputComponent",
-            "id": "component-CustomInputComponent-24e31f1c8f3ca816e07bf18f5600351b3d01d854d5cf94446bbed1cf37a3f7a1acf3d5f785620cbc997f142475c6986a5fe4b61493292ec4435349f5eb493eb9-1",
+            "id": "component-CustomInputComponent-24e31f1c8f3ca816e07bf18f5600351b3d01d854d5cf94446bbed1cf37a3f7a1acf3d5f785620cbc997f142475c6986a5fe4b61493292ec4435349f5eb493eb9",
             "file": ".history/projects/custom-input/src/lib/custom-input.component_20221230152714.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -237,14 +182,11 @@
             },
             "implements": [
                 "OnInit"
-            ],
-            "isDuplicate": true,
-            "duplicateId": 1,
-            "duplicateName": "CustomInputComponent-1"
+            ]
         },
         {
             "name": "CustomInputComponent",
-            "id": "component-CustomInputComponent-3f0a199b0f5f2b6ce95784140940c4eb0ae976df08dd451f664405f0c68037f394030e693df6a672af96113a38e8efc3e793fbc54f69e5fca8389f24c0c87283-2",
+            "id": "component-CustomInputComponent-3f0a199b0f5f2b6ce95784140940c4eb0ae976df08dd451f664405f0c68037f394030e693df6a672af96113a38e8efc3e793fbc54f69e5fca8389f24c0c87283-1",
             "file": ".history/projects/custom-input/src/lib/custom-input.component_20221230153539.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -280,6 +222,62 @@
             "rawdescription": "\n",
             "type": "component",
             "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: ` <p>custom-input works!</p> `,\n  styles: [],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 1,
+            "duplicateName": "CustomInputComponent-1"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-f44b3fa0ce9c582a85c496e06245afd9ac7483a1f90dcdec164b03dde224d160dcce8cd6923317a26018808e5857b2888ba0fb8cdb721f1160aa8a5888207d46-2",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20221230153548.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<input />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 11,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n  styles: [],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -358,8 +356,8 @@
         },
         {
             "name": "CustomInputComponent",
-            "id": "component-CustomInputComponent-f44b3fa0ce9c582a85c496e06245afd9ac7483a1f90dcdec164b03dde224d160dcce8cd6923317a26018808e5857b2888ba0fb8cdb721f1160aa8a5888207d46-4",
-            "file": ".history/projects/custom-input/src/lib/custom-input.component_20221230153548.ts",
+            "id": "component-CustomInputComponent-a877cbdc6c7d0d8014e45b836cb17ccd7b3f826d0ab1e9226633998812d53658a11153a7106197ec55c8e4551a5bea85057109c99bed5d75ab452e8eab840945-4",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085552.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
@@ -393,7 +391,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n  styles: [],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n  // styles: ['./custom-input.component.scss'],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -411,6 +409,397 @@
             "isDuplicate": true,
             "duplicateId": 4,
             "duplicateName": "CustomInputComponent-4"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-b3deeb2ffc90d0f5fc0eee74850df10918ef8ffc443eb9dc3cd11954c05d668f61d7c0c728219efa36220376e24a59f922a5842988ecba672d027817bac824e6-5",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085601.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [
+                "./custom-input.component.scss"
+            ],
+            "template": "<input />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 11,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n  styles: ['./custom-input.component.scss'],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "./custom-input.component.scss\n",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 5,
+            "duplicateName": "CustomInputComponent-5"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-712246e13306c47b79f358d57ea0b0fa9e70442d9a8f93bad7f3f467f379158a579096f951a59b42279f924325358dac83709057998ebc241fbb82aabe666295-6",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085628.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [
+                "./custom-input.component.scss"
+            ],
+            "template": "<input class=\"lib-input\" />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 11,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input class=\"lib-input\" />`,\n  styles: ['./custom-input.component.scss'],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "./custom-input.component.scss\n",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 6,
+            "duplicateName": "CustomInputComponent-6"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-eaed450d0a35a618ec54f368b2bd9ad39ea881c57df91db2217db67cefb7d0591cededd234aeac9fb3e7b3492ef827ad9a5f95949cddb8a963580bd873511eb9-7",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085647.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<input class=\"lib-input\" />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 10,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input class=\"lib-input\" />`,\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 7
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 7,
+            "duplicateName": "CustomInputComponent-7"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-712246e13306c47b79f358d57ea0b0fa9e70442d9a8f93bad7f3f467f379158a579096f951a59b42279f924325358dac83709057998ebc241fbb82aabe666295-8",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085722.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [
+                "./custom-input.component.scss"
+            ],
+            "template": "<input class=\"lib-input\" />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 11,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input class=\"lib-input\" />`,\n  styles: ['./custom-input.component.scss'],\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "./custom-input.component.scss\n",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 8,
+            "duplicateName": "CustomInputComponent-8"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-eaed450d0a35a618ec54f368b2bd9ad39ea881c57df91db2217db67cefb7d0591cededd234aeac9fb3e7b3492ef827ad9a5f95949cddb8a963580bd873511eb9-9",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085749.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<input class=\"lib-input\" />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 10,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input class=\"lib-input\" />`,\n})\nexport class CustomInputComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit(): void {}\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 7
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 9,
+            "duplicateName": "CustomInputComponent-9"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-0082608e0d891f0ba6bba21653cba32ea20d2fb0004b33a50b97bcb5a952bc4871c5a9c2c63b3965af90d788f61eb6f134b7a627ea2dba72622aa464edb586d6-10",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085804.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<input class=\"lib-input\" />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input class=\"lib-input\" />`,\n})\nexport class CustomInputComponent implements OnInit {}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "implements": [
+                "OnInit"
+            ],
+            "isDuplicate": true,
+            "duplicateId": 10,
+            "duplicateName": "CustomInputComponent-10"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-01995b3d449eb2e4245a3a853c8f6010fa8aac32382c1a2106f38c940a2e070d2e2edecbc8d669b15f409a72b94bf0cb3e822c219bb715f84891b14dcf69d773-11",
+            "file": ".history/projects/custom-input/src/lib/custom-input.component_20230102085813.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<input />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n})\nexport class CustomInputComponent {}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "isDuplicate": true,
+            "duplicateId": 11,
+            "duplicateName": "CustomInputComponent-11"
+        },
+        {
+            "name": "CustomInputComponent",
+            "id": "component-CustomInputComponent-01995b3d449eb2e4245a3a853c8f6010fa8aac32382c1a2106f38c940a2e070d2e2edecbc8d669b15f409a72b94bf0cb3e822c219bb715f84891b14dcf69d773-12",
+            "file": "projects/components/custom-input/src/lib/custom-input.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-custom-input",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<input />",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'lib-custom-input',\n  template: `<input />`,\n})\nexport class CustomInputComponent {}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "isDuplicate": true,
+            "duplicateId": 12,
+            "duplicateName": "CustomInputComponent-12"
         }
     ],
     "modules": [
@@ -420,7 +809,7 @@
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
-            "file": "projects/custom-button/src/lib/custom-button.module.ts",
+            "file": "projects/components/custom-button/src/lib/custom-button.module.ts",
             "methods": [],
             "sourceCode": "import { CommonModule } from '@angular/common';\nimport { NgModule } from '@angular/core';\nimport { CustomButtonComponent } from './custom-button.component';\n\n@NgModule({\n  declarations: [CustomButtonComponent],\n  imports: [CommonModule],\n  exports: [CustomButtonComponent],\n})\nexport class CustomButtonModule {}\n",
             "children": [
@@ -460,51 +849,7 @@
         },
         {
             "name": "CustomInputModule",
-            "id": "module-CustomInputModule-ffd90d31e2eea7d1295cd2ae3bd8d465ae390da263f18a1f738288d70898aaa56adb808f660fc1cd0d8c70437626bc57c998be633e3b58ce324664b576165c25",
-            "description": "",
-            "deprecationMessage": "",
-            "deprecated": false,
-            "file": "projects/custom-input/src/lib/custom-input.module.ts",
-            "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CustomInputComponent } from './custom-input.component';\n\n@NgModule({\n  declarations: [CustomInputComponent],\n  imports: [],\n  exports: [CustomInputComponent],\n})\nexport class CustomInputModule {}\n",
-            "children": [
-                {
-                    "type": "providers",
-                    "elements": []
-                },
-                {
-                    "type": "declarations",
-                    "elements": [
-                        {
-                            "name": "CustomInputComponent"
-                        }
-                    ]
-                },
-                {
-                    "type": "imports",
-                    "elements": []
-                },
-                {
-                    "type": "exports",
-                    "elements": [
-                        {
-                            "name": "CustomInputComponent"
-                        }
-                    ]
-                },
-                {
-                    "type": "bootstrap",
-                    "elements": []
-                },
-                {
-                    "type": "classes",
-                    "elements": []
-                }
-            ]
-        },
-        {
-            "name": "CustomInputModule",
-            "id": "module-CustomInputModule-dcea08599024df4ef28b18ad46975ba8d250897a0c6b1dd7e9ed41b7986f7b5b4a03e20ad9e30e49241f44dec614fc9c603ca8dfd15476be176a5ffb0b5bbab5-1",
+            "id": "module-CustomInputModule-dcea08599024df4ef28b18ad46975ba8d250897a0c6b1dd7e9ed41b7986f7b5b4a03e20ad9e30e49241f44dec614fc9c603ca8dfd15476be176a5ffb0b5bbab5",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
@@ -548,7 +893,7 @@
         },
         {
             "name": "CustomInputModule",
-            "id": "module-CustomInputModule-ffd90d31e2eea7d1295cd2ae3bd8d465ae390da263f18a1f738288d70898aaa56adb808f660fc1cd0d8c70437626bc57c998be633e3b58ce324664b576165c25-2",
+            "id": "module-CustomInputModule-ffd90d31e2eea7d1295cd2ae3bd8d465ae390da263f18a1f738288d70898aaa56adb808f660fc1cd0d8c70437626bc57c998be633e3b58ce324664b576165c25-1",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
@@ -589,6 +934,90 @@
                     "elements": []
                 }
             ]
+        },
+        {
+            "name": "CustomInputModule",
+            "id": "module-CustomInputModule-9fe3fe8a10d33272059da58718a9ac49f7cb4551302e93901731632c833bd3d75a79aaeeca317cca11e3dfe67ea1a21dab9d1597202480707837c01541fa4be0-2",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": ".history/projects/custom-input/src/lib/custom-input.module_20230102085718.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CustomInputComponent } from './custom-input.component';\nimport { CommonModule } from '@angular/common';\n\n@NgModule({\n  declarations: [CustomInputComponent],\n  imports: [CommonModule],\n  exports: [CustomInputComponent],\n})\nexport class CustomInputModule {}\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "CustomInputComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "CustomInputComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "CustomInputModule",
+            "id": "module-CustomInputModule-9fe3fe8a10d33272059da58718a9ac49f7cb4551302e93901731632c833bd3d75a79aaeeca317cca11e3dfe67ea1a21dab9d1597202480707837c01541fa4be0-3",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "projects/components/custom-input/src/lib/custom-input.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CustomInputComponent } from './custom-input.component';\nimport { CommonModule } from '@angular/common';\n\n@NgModule({\n  declarations: [CustomInputComponent],\n  imports: [CommonModule],\n  exports: [CustomInputComponent],\n})\nexport class CustomInputModule {}\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "CustomInputComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
         }
     ],
     "miscellaneous": {
@@ -597,7 +1026,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/test.ts",
+                "file": "projects/components/custom-button/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -607,7 +1036,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-input/src/test.ts",
+                "file": "projects/components/custom-input/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -617,7 +1046,7 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/lib/Button.stories.ts",
+                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -637,7 +1066,7 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -647,7 +1076,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/lib/Button.stories.ts",
+                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -667,7 +1096,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -677,7 +1106,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/test.ts",
+                "file": "projects/components/custom-button/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "literal type"
@@ -686,7 +1115,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-input/src/test.ts",
+                "file": "projects/components/custom-input/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "literal type"
@@ -695,7 +1124,7 @@
                 "name": "Secondary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/lib/Button.stories.ts",
+                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -715,7 +1144,7 @@
                 "name": "Secondary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -725,7 +1154,7 @@
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/lib/Button.stories.ts",
+                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -745,7 +1174,7 @@
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -755,7 +1184,7 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/custom-button/src/lib/Button.stories.ts",
+                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Button>",
@@ -775,7 +1204,7 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Button>",
@@ -786,12 +1215,12 @@
         "typealiases": [],
         "enumerations": [],
         "groupedVariables": {
-            "projects/custom-button/src/test.ts": [
+            "projects/components/custom-button/src/test.ts": [
                 {
                     "name": "context",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/test.ts",
+                    "file": "projects/components/custom-button/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -801,18 +1230,18 @@
                     "name": "require",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/test.ts",
+                    "file": "projects/components/custom-button/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "literal type"
                 }
             ],
-            "projects/custom-input/src/test.ts": [
+            "projects/components/custom-input/src/test.ts": [
                 {
                     "name": "context",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-input/src/test.ts",
+                    "file": "projects/components/custom-input/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -822,18 +1251,18 @@
                     "name": "require",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-input/src/test.ts",
+                    "file": "projects/components/custom-input/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "literal type"
                 }
             ],
-            "projects/custom-button/src/lib/Button.stories.ts": [
+            ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts": [
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/lib/Button.stories.ts",
+                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -843,7 +1272,7 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/lib/Button.stories.ts",
+                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -853,7 +1282,7 @@
                     "name": "Secondary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/lib/Button.stories.ts",
+                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -863,7 +1292,7 @@
                     "name": "Small",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/lib/Button.stories.ts",
+                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -873,7 +1302,7 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/custom-button/src/lib/Button.stories.ts",
+                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<Button>",
@@ -932,12 +1361,12 @@
                     "defaultValue": "(args: Button) => ({\n  props: args,\n})"
                 }
             ],
-            ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts": [
+            "projects/components/custom-button/src/lib/Button.stories.ts": [
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                    "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -947,7 +1376,7 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                    "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -957,7 +1386,7 @@
                     "name": "Secondary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                    "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -967,7 +1396,7 @@
                     "name": "Small",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                    "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -977,7 +1406,7 @@
                     "name": "Template",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": ".history/projects/custom-button/src/lib/Button.stories_20221230092215.ts",
+                    "file": "projects/components/custom-button/src/lib/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<Button>",
@@ -991,7 +1420,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 3,
+        "count": 2,
         "status": "low",
         "files": [
             {
@@ -1131,7 +1560,79 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/lib/Button.stories.ts",
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085552.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085601.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085628.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085647.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085722.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085749.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085804.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": ".history/projects/custom-input/src/lib/custom-input.component_20230102085813.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CustomInputComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1141,7 +1642,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/lib/Button.stories.ts",
+                "filePath": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1151,7 +1652,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/lib/Button.stories.ts",
+                "filePath": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1161,7 +1662,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/lib/Button.stories.ts",
+                "filePath": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1171,7 +1672,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/lib/Button.stories.ts",
+                "filePath": "projects/components/custom-button/src/lib/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1181,7 +1682,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/lib/custom-button.component.ts",
+                "filePath": "projects/components/custom-button/src/lib/custom-button.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "CustomButtonComponent",
@@ -1190,7 +1691,7 @@
                 "status": "very-good"
             },
             {
-                "filePath": "projects/custom-button/src/test.ts",
+                "filePath": "projects/components/custom-button/src/test.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1200,7 +1701,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-button/src/test.ts",
+                "filePath": "projects/components/custom-button/src/test.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1210,16 +1711,16 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-input/src/lib/custom-input.component.ts",
+                "filePath": "projects/components/custom-input/src/lib/custom-input.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "CustomInputComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/3",
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-input/src/test.ts",
+                "filePath": "projects/components/custom-input/src/test.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -1229,7 +1730,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/custom-input/src/test.ts",
+                "filePath": "projects/components/custom-input/src/test.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
