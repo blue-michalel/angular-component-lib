@@ -1,22 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { Spectator, createComponentFactory } from '@ngneat/spectator';
 import { CustomButtonComponent } from './custom-button.component';
 
-describe('CustomButtonComponent', () => {
-  let component: CustomButtonComponent;
-  let fixture: ComponentFixture<CustomButtonComponent>;
+describe('ButtonComponent', () => {
+  let spectator: Spectator<CustomButtonComponent>;
+  const createComponent = createComponentFactory(CustomButtonComponent);
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [CustomButtonComponent],
-    }).compileComponents();
-
-    fixture = TestBed.createComponent(CustomButtonComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+  beforeEach(() => {
+    spectator = createComponent();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it('should have a success class by default', () => {
+    expect(spectator.query('button')).toHaveClass('lib-button');
   });
 });

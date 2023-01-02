@@ -1,23 +1,15 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { Spectator, createComponentFactory } from '@ngneat/spectator';
 import { CustomInputComponent } from './custom-input.component';
 
-describe('CustomInputComponent', () => {
-  let component: CustomInputComponent;
-  let fixture: ComponentFixture<CustomInputComponent>;
+describe('ButtonComponent', () => {
+  let spectator: Spectator<CustomInputComponent>;
+  const createComponent = createComponentFactory(CustomInputComponent);
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ CustomInputComponent ]
-    })
-    .compileComponents();
-
-    fixture = TestBed.createComponent(CustomInputComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+  beforeEach(() => {
+    spectator = createComponent();
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(spectator.query('input')).toBeTruthy();
   });
 });
