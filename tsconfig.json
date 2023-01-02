@@ -6,6 +6,9 @@
     "paths": {
       "custom-button": [
         "dist/custom-button"
+      ],
+      "custom-input": [
+        "dist/custom-input"
       ]
     },
     "outDir": "./dist/out-tsc",
