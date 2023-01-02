@@ -1,0 +1,47 @@
+{
+  "name": "angular-component-lib",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/angular-component-lib.mjs",
+  "es2020": "fesm2020/angular-component-lib.mjs",
+  "esm2020": "esm2020/angular-component-lib.mjs",
+  "fesm2020": "fesm2020/angular-component-lib.mjs",
+  "fesm2015": "fesm2015/angular-component-lib.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/angular-component-lib.mjs",
+      "es2020": "./fesm2020/angular-component-lib.mjs",
+      "es2015": "./fesm2015/angular-component-lib.mjs",
+      "node": "./fesm2015/angular-component-lib.mjs",
+      "default": "./fesm2020/angular-component-lib.mjs"
+    },
+    "./custom-button": {
+      "types": "./custom-button/index.d.ts",
+      "esm2020": "./esm2020/custom-button/angular-component-lib-custom-button.mjs",
+      "es2020": "./fesm2020/angular-component-lib-custom-button.mjs",
+      "es2015": "./fesm2015/angular-component-lib-custom-button.mjs",
+      "node": "./fesm2015/angular-component-lib-custom-button.mjs",
+      "default": "./fesm2020/angular-component-lib-custom-button.mjs"
+    },
+    "./custom-input": {
+      "types": "./custom-input/index.d.ts",
+      "esm2020": "./esm2020/custom-input/angular-component-lib-custom-input.mjs",
+      "es2020": "./fesm2020/angular-component-lib-custom-input.mjs",
+      "es2015": "./fesm2015/angular-component-lib-custom-input.mjs",
+      "node": "./fesm2015/angular-component-lib-custom-input.mjs",
+      "default": "./fesm2020/angular-component-lib-custom-input.mjs"
+    }
+  },
+  "sideEffects": false
+}
